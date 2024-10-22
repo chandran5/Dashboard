@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Social Media Dashboard</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .dashboard {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: rgb(216, 15, 15);
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 20px;
+      flex: 1;
+      min-width: 200px;
+      text-align: center;
+    }
+    .attribution {
+      font-size: 11px; 
+      text-align: center; 
+      margin-top: 20px;
+    }
+    .attribution a { 
+      color: hsl(63, 84%, 52%); 
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Social Media Dashboard</h1>
+    <p>Total Followers: 23,004</p>
+    <label>
+      <input type="checkbox" id="dark-mode"> Dark Mode
+    </label>
+  </header>
+
+  <main class="dashboard">
+    <div class="card">
+      <h2>@nathanf</h2>
+      <p>Followers: 1987</p>
+      <p>Today: +12</p>
+    </div>
+    <div class="card">
+      <h2>@nathanf</h2>
+      <p>Followers: 1044</p>
+      <p>Today: +99</p>
+    </div>
+    <div class="card">
+      <h2>@realnathanf</h2>
+      <p>Followers: 11k</p>
+      <p>Today: +1099</p>
+    </div>
+    <div class="card">
+      <h2>Nathan F.</h2>
+      <p>Subscribers: 8239</p>
+      <p>Today: +144</p>
+    </div>
+  </main>
+
+  <section class="overview">
+    <h2>Overview - Today</h2>
+    <div class="card">
+      <p>Page Views: 87</p>
+      <p>Change: 3%</p>
+    </div>
+    <div class="card">
+      <p>Likes: 52</p>
+      <p>Change: 2%</p>
+    </div>
+    <div class="card">
+      <p>Likes: 5462</p>
+      <p>Change: 2257%</p>
+    </div>
+    <div class="card">
+      <p>Profile Views: 52k</p>
+      <p>Change: 1375%</p>
+    </div>
+    <div class="card">
+      <p>Retweets: 117</p>
+      <p>Change: 303%</p>
+    </div>
+    <div class="card">
+      <p>Likes: 507</p>
+      <p>Change: 553%</p>
+    </div>
+    <div class="card">
+      <p>Likes: 107</p>
+      <p>Change: 19%</p>
+    </div>
+    <div class="card">
+      <p>Total Views: 1407</p>
+      <p>Change: 12%</p>
+    </div>
+  </section>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="#">Social Media Dashboard</a>. Coded by <a href="#">Your Name</a>.</p>
+  </footer>
+
+</body>
+</html>
